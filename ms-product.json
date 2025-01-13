@@ -1,0 +1,9 @@
+{	
+	"spring.boot.admin.client.url": "http://ms-sba-server:8086",
+	"spring.boot.admin.client.username": "admin",
+	"spring.boot.admin.client.password": "admin",
+	
+	"spring.kafka.bootstrap-servers[0]": "zipkin-kafka:19092",
+	
+	"eureka.client.service-url.defaultZone": "http://ms-discovery-server:8761/eureka"
+}
